@@ -331,6 +331,7 @@ Core with MVC, Web API, Typescript, Aurelia, and Bootstrap navigation.
 	<template>
 		<require from="nav-bar.html"></require>
 		<require from="bootstrap/css/bootstrap.css"></require>
+		<require from="font-awesome/css/font-awesome.css"></require>
 		<nav-bar router.bind="router"></nav-bar>
 		<div class="page-host">
 			<router-view></router-view>
