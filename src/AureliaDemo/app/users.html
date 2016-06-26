@@ -1,0 +1,18 @@
+﻿<template>
+    <section class="page">
+        <h2>${heading}</h2>
+        <div class="row">
+            <div class="col-sm-6 col-md-3" repeat.for="user of users">
+                <div>
+                    <div>
+                        <img src.bind="user.avatar_url" crossorigin width="100" />
+                    </div>
+                    <div>
+                        <p>${user.login}</p>
+                        <p><a target="_blank" class="btn btn-default" href.bind="user.html_url">Contact</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
