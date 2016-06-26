@@ -454,6 +454,7 @@ Core with MVC, Web API, Typescript, Aurelia, and Bootstrap navigation.
 - Add New Item to the project, choose Typescript JSON Configuration File and keep the name of tsconfig.json and change the content to the following:
 ```
 	{
+		"compileOnSave": true,
 		"compilerOptions": {
 			"noImplicitAny": false,
 			"noEmitOnError": true,
